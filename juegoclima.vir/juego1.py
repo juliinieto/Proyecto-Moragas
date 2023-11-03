@@ -13,11 +13,11 @@ pygame.display.set_caption("Juego de Imágenes y Sonidos")
 image_width, image_height = 800, 600
 
 # Lista de imágenes
-images = [r'C:\Users\Belen\OneDrive\Documentos\juego1\img\nublado.jpg', r'C:\Users\Belen\OneDrive\Documentos\juego1\img\soleado.jpg', r'C:\Users\Belen\OneDrive\Documentos\juego1\img\lluvioso.jpg']
+images = [r'C:\Users\Belen\OneDrive\Documentos\juegoclima.vir\img\nublado.jpg', r'C:\Users\Belen\OneDrive\Documentos\juegoclima.vir\img\soleado.jpg', r'C:\Users\Belen\OneDrive\Documentos\juegoclima.vir\img\lluvioso.jpg']
 current_image_index = 0
 
 # Lista de sonidos
-sounds = [r'C:\Users\Belen\OneDrive\Documentos\juego1\sonido\nublado.wav', r'C:\Users\Belen\OneDrive\Documentos\juego1\sonido\soleado.wav', r'C:\Users\Belen\OneDrive\Documentos\juego1\sonido\lluvioso.wav']
+sounds = [r'C:\Users\Belen\OneDrive\Documentos\juegoclima.vir\sonido\nublado.wav', r'C:\Users\Belen\OneDrive\Documentos\juegoclima.vir\sonido\soleado.wav', r'C:\Users\Belen\OneDrive\Documentos\juegoclima.vir\sonido\lluvioso.wav']
 current_sound_index = 0
 
 # Cargar y redimensionar la primera imagen
@@ -33,16 +33,16 @@ def next_sound():
 
 # Función para cargar y reproducir el sonido personalizado "muy bien"
 def play_muybien_sound():
-    muybien_sound = pygame.mixer.Sound(r'C:\Users\Belen\OneDrive\Documentos\juego1\sonido\muybien.wav')
+    muybien_sound = pygame.mixer.Sound(r'C:\Users\Belen\OneDrive\Documentos\juegoclima.vir\sonido\muybien.wav')
     muybien_sound.play()
 
 # Función para cargar y reproducir el sonido personalizado "muybiensoleado"
 def play_muybiensoleado_sound():
-    muybiensoleado_sound = pygame.mixer.Sound(r'C:\Users\Belen\OneDrive\Documentos\juego1\sonido\muybiensoleado.wav')
+    muybiensoleado_sound = pygame.mixer.Sound(r'C:\Users\Belen\OneDrive\Documentos\juegoclima.vir\sonido\muybiensoleado.wav')
     muybiensoleado_sound.play()
     
 def play_muybienlluvioso_sound():
-    muybienlluvioso_sound = pygame.mixer.Sound(r'C:\Users\Belen\OneDrive\Documentos\juego1\sonido\muybienlluvioso.wav')
+    muybienlluvioso_sound = pygame.mixer.Sound(r'C:\Users\Belen\OneDrive\Documentos\juegoclima.vir\sonido\muybienlluvioso.wav')
     muybienlluvioso_sound.play()
 
 # Definir la función para avanzar a la siguiente imagen
